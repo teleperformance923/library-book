@@ -1,0 +1,98 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #d90429;
+    font-size: 3rem;
+  }
+  
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 2px solid #d90429;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    color: #d90429;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button.toggle-read {
+    background-color: #ef233c;
+    color: white;
+  }
+  
+  button.remove-book {
+    background-color: #8d0801;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #d90429;
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #d90429;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .btn:hover {
+    background-color: #8d0801;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+  
